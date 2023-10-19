@@ -1365,6 +1365,9 @@
 
 &aml_wifi{
 	status = "okay";
+	dhd_static_buf; /* if use bcm wifi, config dhd_static_buf */
+	pinctrl-0 = <&pwm_e_pins1>;
+	pinctrl-names = "default";
 	interrupt-gpios = <&gpio  GPIOX_7  GPIO_ACTIVE_HIGH>;
 	power_on-gpios = <&gpio   GPIOX_6  GPIO_ACTIVE_HIGH>;
 };
