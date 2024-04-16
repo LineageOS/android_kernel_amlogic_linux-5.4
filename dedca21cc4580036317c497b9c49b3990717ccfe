@@ -16,6 +16,23 @@
       "message": "tested on kvim1s, boots fine",
       "revId": "dedca21cc4580036317c497b9c49b3990717ccfe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50fb948a_d39a5bb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-16T04:09:25Z",
+      "side": 1,
+      "message": "Documentation\u0027s sake, net diff (old to new) via diffconfig:\n-AMLOGIC_AAD_ALGORITHM m\n-AMLOGIC_AMAUDIO m\n-AMLOGIC_CABC_ALGORITHM m\n-AMLOGIC_COLOR_TUNE_ALGORITHM m\n-AMLOGIC_DNLP_ALGORITHM m\n-AMLOGIC_FRC_FW_ALGORITHM m\n-AMLOGIC_HDR10_TMO_ALGORITHM m\n-AMLOGIC_LDIM_FW_ALGORITHM m\n-AMLOGIC_MEDIA_COMMON_ALGORITHM y\n-AMLOGIC_PREGM_ALGORITHM m\n-AMLOGIC_SND_SOC_AUGE y\n-AMLOGIC_SND_SOC_COMMON y\n-AMLOGIC_UVM_CORE y\n-DWMAC_GENERIC y\n-GS_KXTJ3 y\n-INIT_STACK_ALL_ZERO y\n-LEDS_CLASS y\n-LEDS_TRIGGERS y\n-MAILBOX y\n-MTD_RESV_MESON m\n-NEW_LEDS y\n-RTC_INTF_DEV y\n-RTC_INTF_PROC y\n-SPI_MESON_SPIFC m\n-STMMAC_PLATFORM y\n-TOUCHSCREEN_KHADAS_FT5X06 y\n-USB_SERIAL_WWAN y\n-USB_SUSPEND y\n-WATCHDOG_CORE y",
+      "revId": "dedca21cc4580036317c497b9c49b3990717ccfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
